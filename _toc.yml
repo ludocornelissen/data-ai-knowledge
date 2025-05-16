@@ -1,0 +1,63 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro  
+parts:
+- caption: Foundations
+  maxdepth: 3
+  chapters:
+  - file: content/foundations/mathematics_and_statistics.md
+  - file: content/foundations/programming_fundamentals.md
+  - file: content/foundations/computing_infrastructure.md
+
+- caption: Machine Learning
+  maxdepth: 3
+  chapters:
+  - file: content/machine_learning/supervised_learning.md
+  - file: content/machine_learning/unsupervised_learning.md
+  - file: content/machine_learning/self_supervised_learning.md
+  - file: content/machine_learning/deep_learning.md
+  - file: content/machine_learning/reinforcement_learning.md
+
+- caption: Data Engineering
+  maxdepth: 3
+  chapters:
+  - file: content/data_engineering/data_acquisition.md
+  - file: content/data_engineering/data_storage.md
+  - file: content/data_engineering/data_processing.md
+  - file: content/data_engineering/data_governance.md
+
+- caption: Generative AI
+  maxdepth: 3
+  chapters:
+  - file: content/generative_ai/diffusion_models.md
+  - file: content/generative_ai/large_language_models.md
+  - file: content/generative_ai/multimodal_ai.md
+  - file: content/generative_ai/generative_ai_ethics.md
+
+- caption: MLOps
+  maxdepth: 3
+  chapters:
+  - file: content/mlops/model_development.md
+  - file: content/mlops/model_deployment.md
+  - file: content/mlops/ci_cd_for_ml.md
+  
+- caption: Explainable AI
+  maxdepth: 3
+  chapters:
+  - file: content/explainable_ai/interpretability_methods.md
+  - file: content/explainable_ai/fairness_and_bias.md
+  - file: content/explainable_ai/model_transparancy.md
+  - file: content/explainable_ai/regulatory_compliance.md
+  
+- caption: Applications
+  maxdepth: 3
+  chapters:
+  - file: content/applications/research_areas.md
+  - file: content/applications/ethics_and_society.md
+  - file: content/applications/emerging_trends.md
+  
+  
+  
+
